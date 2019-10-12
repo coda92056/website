@@ -1,3 +1,3 @@
 function display() {
-alert("Hello");
+alert("Hello from koda");
 }
