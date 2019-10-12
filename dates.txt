@@ -2,4 +2,6 @@ end of milestone 1:january
        milestone 2:March
        milestone 3:April
        Release: June
+Mac on Mac:add jsr 
+Mark on Pc: add html and css
 
