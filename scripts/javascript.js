@@ -1,3 +1,3 @@
 function display() {
-alert("Hello from Ko");
+alert("Hello");
 }
