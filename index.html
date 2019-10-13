@@ -2,14 +2,27 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<title>Website Home page</title>
-<script src="scripts/javascript.js">
-</script>
+<title> Home page</title>
+<script src="scripts/jquery.js"></script>
+<script src="scripts/javascript.js"></script>
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("#info").toggle();
+    });
+  });
+  </script>
 </head>
 <body>
+<h1>Demo for a Dynamic Website</h1>
+<br/>
 <p>This is a test </p>
 <form>
   <input type="button" value="Result" onclick="display()"/>
 </form>
+<p></p>
+<p id="info">Info:<br/>-runs on apache<br/>-htm5 and CSS<br>-javascript and jquery</p>
+<button>Click Me to Hide or Unhide Info</button>
+
 </body>
 </html>
